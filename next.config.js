@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
       { protocol: "https", hostname: "**" },
     ],
   },
-  experimental: {
-    optimizeCss: false,
+  webpack: (config) => {
+    config.cache = false;
+    return config;
   },
   async headers() {
     return [
@@ -41,5 +41,4 @@ const nextConfig = {
     ];
   },
 };
-
 module.exports = nextConfig;
