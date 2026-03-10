@@ -8,7 +8,7 @@ const nextConfig = {
     ],
   },
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false,
   },
   async headers() {
     return [
