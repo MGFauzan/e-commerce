@@ -1,6 +1,5 @@
 # OpenHelp — E-Commerce Jasa Coding
 
-[![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare%20Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com)
 
 > Jasa coding profesional: website, joki tugas, refactoring, open source modding. Cyberpunk edition. ⚡
 
