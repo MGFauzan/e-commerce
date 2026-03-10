@@ -1,4 +1,4 @@
-# OpenHelp — Cyberpunk E-Commerce Jasa Coding
+# OpenHelp — E-Commerce Jasa Coding
 
 [![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deploy-Cloudflare%20Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com)
 
@@ -50,29 +50,6 @@ openhelp/
 ├── lib/validation.ts           # Zod schemas
 ├── constants/data.ts           # Services, FAQs, Promos, Testimonials
 └── types/index.ts              # TypeScript types
-```
-
-## ☁️ Deploy ke Cloudflare Pages
-
-### Via Cloudflare Dashboard
-
-1. Push project ke GitHub/GitLab
-2. Login ke [Cloudflare Pages](https://pages.cloudflare.com)
-3. Create a new project → Connect to Git → Pilih repo
-4. Build settings:
-   - **Framework preset:** Next.js
-   - **Build command:** `npm run build`
-   - **Build output directory:** `.next`
-5. Environment Variables:
-   - `RESEND_API_KEY` = your key
-   - `CONTACT_EMAIL` = your email
-6. Deploy!
-
-### Via Wrangler CLI
-
-```bash
-npm install -g wrangler
-wrangler pages deploy .next --project-name openhelp
 ```
 
 ## 🎨 Design System
