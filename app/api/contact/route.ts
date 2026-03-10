@@ -49,7 +49,7 @@ export async function POST(req: NextRequest): Promise<NextResponse<ApiResponse>>
       await resend.emails.send({
         from: "OpenHelp <onboarding@resend.dev>",   
         to: TO_EMAIL,
-        replyTo: safeData.email,                   
+        reply_to: safeData.email,                   
         subject: `[OpenHelp] ${safeData.subject}`,
         html: `
           <div style="font-family: monospace; background: #050505; color: #E0E0E0; padding: 32px; border-left: 4px solid #FF00FF;">
